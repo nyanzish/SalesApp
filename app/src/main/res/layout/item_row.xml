@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:srcCompat="@tools:sample/avatars[10]"
+            android:id="@+id/item_photo"
+            />
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:id="@+id/item_name"
+                  android:layout_height="wrap_content"
+                  android:text="Purple Shirt"
+                  android:textSize="20sp"
+                  android:textColor="#fff"
+                  android:layout_marginLeft="15dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/item_price"
+                  android:layout_marginTop="15dp"
+                  android:text="15000"
+                  android:textSize="20sp"
+                  android:textColor="#fff"
+                  android:layout_marginLeft="15dp"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/item_add_photo"
+                   android:layout_marginTop="15dp"
+
+                   android:src="@drawable/addwhite2cr1"
+                   android:layout_marginLeft="15dp"
+        />
+
+    </LinearLayout>
+</LinearLayout>
